@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نامه تعاملی</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f7f7f7;
+        }
+        .letter {
+            width: 400px;
+            height: 300px;
+            border: 2px solid #000;
+            position: relative;
+            overflow: hidden;
+            margin: 50px auto;
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .card {
+            width: 360px;
+            height: 280px;
+            background: #fff;
+            position: absolute;
+            bottom: -300px;
+            left: 20px;
+            transition: all 1s ease;
+        }
+        .letter:hover .card {
+            bottom: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="letter">
+        <p>برای دیدن کارت، روی نامه کلیک کنید:</p>
+        <div class="card">
+            <img src="/mnt/data/IMG_7146.png" alt="دعوت‌نامه نامزدی">
+            <p><a href="https://yourlink.com">لینک کارت</a></p>
+        </div>
+    </div>
+</body>
+</html>
